@@ -27,6 +27,7 @@ INSERT INTO board(subject, content, writer, regdate) VALUES('안녕1', '반가�
 INSERT INTO board(subject, content, writer, regdate) VALUES('안녕2', '반가워요2', 'gildong2', SYSDATE());
 INSERT INTO board(subject, content, writer, regdate) VALUES('안녕3', '반가워요3', 'gildong3', SYSDATE());
 INSERT INTO board(subject, content, writer, regdate) VALUES('안녕4', '반가워요4', 'gildong4', SYSDATE());
+INSERT INTO board(subject, content, writer, regdate) VALUES('안녕5', '반가워요5', 'gildong5', SYSDATE());
 
 CREATE TABLE REPLY(
     RCODE INT AUTO_INCREMENT PRIMARY KEY,
